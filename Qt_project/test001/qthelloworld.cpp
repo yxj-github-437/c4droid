@@ -7,5 +7,3 @@ int main(int argc, char* argv[]) {
     label->show();
     return app.exec();
 }
-
-#include <qthelloworld.cpp.moc>
