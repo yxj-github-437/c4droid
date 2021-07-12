@@ -8,14 +8,14 @@ int init()
 	SDL_Init(SDL_INIT_EVERYTHING);
 	// 创建窗口
 	win = SDL_CreateWindow(
-							  // 标题
-							  "我的SDL示例",
-							  // 居中
+	// 标题
+	"我的SDL示例",
+	// 居中
 							  SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
-							  // 宽高
-							  200, 300,
-							  // 状态
-							  SDL_WINDOW_SHOWN);
+	// 宽高
+	200, 300,
+	// 状态
+	SDL_WINDOW_SHOWN);
 	if (win == nullptr)
 		return -1;
 	// 获取w的表面
