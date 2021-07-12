@@ -6,6 +6,5 @@ int main(int argc, char** argv) {
     QApplication app(argc,argv);
     Board board;
     board.show();
-
     return app.exec();
 }
