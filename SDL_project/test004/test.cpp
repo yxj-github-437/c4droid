@@ -14,8 +14,9 @@ int init()
 	// 标题
 	"我的SDL示例",
 	// 居中
-							  SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
-	 // 宽高
+	SDL_WINDOWPOS_CENTERED,
+	SDL_WINDOWPOS_CENTERED,
+	// 宽高
 	w,h,
 	// 状态
 	SDL_WINDOW_SHOWN);
