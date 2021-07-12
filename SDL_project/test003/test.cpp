@@ -16,9 +16,11 @@ SDL_Surface *sur = NULL;
 int main(int argc, char **argv)
 {
 	SDL_Init(SDL_INIT_EVERYTHING);
-	win =
-		SDL_CreateWindow("SDL_test", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800, 600,
-						 SDL_WINDOW_SHOWN);
+	win =SDL_CreateWindow("SDL_test",
+        	SDL_WINDOWPOS_CENTERED,
+ 		SDL_WINDOWPOS_CENTERED,
+		800, 600,
+		SDL_WINDOW_SHOWN);
 	if (!win)
 		return -1;
 	sur = SDL_GetWindowSurface(win);
